@@ -4947,7 +4947,7 @@ sup {
     width: 100%;
     margin: 0 auto;
     display: block;
-    font-size: 30px;
+    font-size: 14px;
     cursor: pointer
 }
 
@@ -4966,11 +4966,60 @@ sup {
     animation: pulse 1.3s infinite
 }
 
+.blog {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    line-height: 1;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.blog .site-blog{
+    display: inline-block;
+    position: absolute;
+    height: 92px;
+    min-width: 80px;
+    margin-left: -85px;
+    text-align: right;
+}
+
+.blog .icon{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    align: left;
+}
+
+.blog .site-blog,
+.blog .icon{
+    -webkit-animation: pulse 1.3s infinite;
+    animation: pulse 1.3s infinite;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    left: 95%;
+    color: #fff;
+}
+
 .down .icon:active,
 .down .icon:hover,
+.blog .icon:active,
+.blog .icon:hover,
+.blog .site-blog:active,
+.blog .site-blog:hover,
 .footer a:active,
 .footer a:hover {
     color: #4b5664
+}
+
+@media only screen and (min-width:550px) {
+    .blog,
+     .down
+     {
+        font-size: 22px;
+    }
 }
 
 #about {
