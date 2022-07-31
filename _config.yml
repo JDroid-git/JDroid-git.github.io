@@ -6,10 +6,10 @@ baseurl: '/'
 profilepic: '/images/profile.jpg'
 bkimage: '/images/bk1.jpg'
 google_analytics: UA-XXXXXX-X
-font_awesome: 'XXXXXXXXXX.js'
+font_awesome: '2ce2a70e07.js'
 
 author:
-  name: 'Thomas Zühlke'
+  name: 'Jdroid'
   email: wonjin2168@gmail.com
 #  twitter_username: thomzuehlke
 #  facebook_username: joshgerdes
