@@ -1,36 +1,20 @@
 # Site settings
-title: Thomas Zühlke
-description: 'Business Card Page'
-url: 'http://www.jdroid.ml'
-baseurl: '/'
-profilepic: '/images/profile.jpg'
-bkimage: '/images/bk1.jpg'
-google_analytics: UA-XXXXXX-X
-font_awesome: '2ce2a70e07.js'
+title: A blog about lorem ipsum dolor sit amet
+description: A blog about lorem ipsum dolor sit amet
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "www.jdroid.ml" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
-author:
-  name: 'Jdroid'
-  email: wonjin2168@gmail.com
-#  twitter_username: thomzuehlke
-#  facebook_username: joshgerdes
-  github_username:  JDroid-git
-#  linkedin_username:  thomas-zühlke-889182165
-#  meetup_name: Azure-Meetup-Rostock-MV
+# User settings
+username: Android Developer
+user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
+user_title: Android Developer
+email: anon@anon.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
 
-# Build settings
-destination: _site
-markdown: kramdown
-highlighter: rouge
+# Google-analytics
+google-analytics:
+  id: ""
 
-sass:
-    sass_dir: _sass
-    style: compressed
-
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-
-#plugins: ['jekyll-paginate']
-exclude: ['README.md', 'screenshot-overview.png']
+exclude: ['package.json', 'src' , 'node_modules']
