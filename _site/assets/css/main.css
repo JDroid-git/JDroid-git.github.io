@@ -4955,8 +4955,6 @@ sup {
     position: absolute;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    top: 50%;
-    left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     width: 100px;
@@ -4978,29 +4976,32 @@ sup {
 }
 
 .blog .site-blog{
-    display: inline-block;
-    position: absolute;
-    height: 92px;
-    min-width: 80px;
-    margin-left: -85px;
-    text-align: right;
+    position: relative;
+    height: auto;
+    width: auto;
+    padding-right: 10px;
+    float: right;
 }
 
 .blog .icon{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    align: left;
+    position: relative;
+    width: auto;
+    height: auto;
+    float: right;
+
 }
 
 .blog .site-blog,
 .blog .icon{
+    right: 4%;
+    display:inline-block;
     -webkit-animation: pulse 1.3s infinite;
     animation: pulse 1.3s infinite;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    left: 95%;
     color: #fff;
+    -webkit-transform: translate(0%, -25px);
+    transform: translate(0%, -25px);
 }
 
 .down .icon:active,
