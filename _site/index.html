@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,10 +9,11 @@
   <meta name="description" content="JDroid의 홈페이지 입니다.">
 
   <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 
-  <body>
-      <div id="particles-js">
+<body>
+    <div id="particles-js">
     <div class="header">
         <h1>
             <span class="site-title">Jdroid</span>
@@ -20,23 +21,20 @@
         </h1>
         <div class="header-icons">
             <a aria-label="Send email" href="#"><i class="icon fa fa-envelope"></i></a>
-            <a aria-label="My LinkedIn" target="_blank" href=""><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
-            <a aria-label="My Google Plus" target="_blank" href="lorem_ipsum"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a>
-            <a aria-label="My Github" target="_blank" href="https://github.com/lorem_ipsum"><i class="icon fa fa-github" aria-hidden="true"></i></a>
-        </div>
-        <div class="header-links">
-            <a class="link" href="#about" data-scroll>About Me</a>
-            <a class="link" href="#projects" data-scroll>Projects</a>
+            <a aria-label="My LinkedIn" target="_blank" href="wonjin2168"><i class="icon fab fa-linkedin" aria-hidden="true"></i></a>
+            <a aria-label="My Google Plus" target="_blank" href="wonjin2168"><i class="icon fab fa-google-plus" aria-hidden="true"></i></a>
+            <a aria-label="My Github" target="_blank" href="https://github.com/jdroid-git"><i class="icon fab fa-github" aria-hidden="true"></i></a>
         </div>
     </div>
+    <div class="links">
+        <a class="link" href="#about" data-scroll>기술</a>
+        <a class="link" href="#companyProjects" data-scroll>프로젝트</a>
+    </div>
     <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
-
-    <a class="blog" href="/blog">
-        <i class="icon fa fa-chevron-right" aria-hidden="true"></i><span class="site-blog"><b>BLOG</b></span>
-    </a>
+    <a class="blog" href="/blog"><span class="site-blog"><b>블로그</b></span><i class="icon fa fa-chevron-right" aria-hidden="true"></i></a>
 </div>
 
-      <section id="about">
+    <section id="about">
          <div class="user-details">
   <h1> My Expertise </h1>
   <p> Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS. </p>
@@ -68,8 +66,8 @@
     </div>
 </div>
 
-      </section>
-      <section id="projects">
+    </section>
+    <section id="companyProjects">
         <div class="user-details">
   <h1> Featured Projects </h1>
 </div>
@@ -100,13 +98,49 @@
   </div>
 </div>
 
-      </section>
-        
-      <footer class="footer">
+    </section>
+    <section id="personalProjects">
+        <div class="user-details">
+  <h1> Featured Projects </h1>
+</div>
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="/assets/img/mountains.jpg" />
+  </div>
+  <div class="contents">
+    <h3> Project Title </h3>
+    <ul>
+      <li> Featured Skills</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <a class="project-link" href="#">Check it out</a>
+  </div>
+</div>
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="mountains" src="/assets/img/skate.jpg" />
+  </div>
+  <div class="contents-right">
+    <h3> Project Title </h3>
+    <ul>
+      <li> Featured Skills</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <a class="project-link" href="#">Check it out</a>
+  </div>
+</div>
+
+    </section>
+
+    <a id="back-to-top" href="#" class="btn btn-lg btn-box-shadow" role="button"><i class="icon fas fa-angle-up"></i></a>
+    <footer class="footer">
     <p>&copy; Jdroid</p>
     <p>Build with Jekyll and <span class="love">❤</span> by <a href="https://github.com/nrandecker">Nathan Randecker</a></p>
 </footer>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="/assets/js/back-to-top.js"></script>
 <script src="/assets/js/sweet-scroll.min.js"></script>
 <script src="/assets/js/main.js"></script>
 <!-- Google Analytics -->
@@ -125,4 +159,5 @@ ga('send', 'pageview');
 
 
 
-  </body>
+</body>
+</html>

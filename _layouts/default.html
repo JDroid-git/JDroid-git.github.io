@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-      {% include header.html %}
-      <section id="about">
+{% include head.html %}
+<body>
+    {% include header.html %}
+    <section id="about">
         {% include about.html %}
-      </section>
-      <section id="projects">
-        {% include projects.html %}
-      </section>
-        {{ content }}
-      {% include footer.html %}
-  </body>
+    </section>
+    <section id="companyProjects">
+        {% include companyProjects.html %}
+    </section>
+    <section id="personalProjects">
+        {% include personalProjects.html %}
+    </section>
+
+    <a id="back-to-top" href="#" class="btn btn-lg btn-box-shadow" role="button"><i class="icon fas fa-angle-up"></i></a>
+    {% include footer.html %}
+</body>
+</html>
